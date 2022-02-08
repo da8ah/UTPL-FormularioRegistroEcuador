@@ -1,7 +1,7 @@
 import re
 
 
-def validar_nombre_apellido(nombre):
+def validar_nombre_apellido(nombre: str):
     return re.compile(
-        r'(^[A-Za-zÑ]+){1}(\s[A-Za-zÑ]+){1,4}$'
+        r'(^[A-Za-zÑñ]+){1}(\s[A-Za-zÑñ]+)*$'
     ).match(nombre) is not None

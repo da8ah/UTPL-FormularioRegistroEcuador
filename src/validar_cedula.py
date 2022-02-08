@@ -4,7 +4,7 @@ import re
 def validar_cedula(cedula: str) -> str:
 
     is_valid = re.compile(
-        r'[0-9]{10}'
+        r'^[0-9]{10}$'
     ).match(cedula) is not None
 
     what_province = None
