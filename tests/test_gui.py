@@ -1,10 +1,11 @@
 from PyQt5.QtCore import Qt
 from gui import *
+from src.app import ValidationFormDialog
 
 
 def test_inputs(qtbot):
 
-    qtMainWindow = MyApp()
+    qtMainWindow = ValidationFormDialog()
 
     # Setup
     window = qtMainWindow
@@ -19,7 +20,7 @@ def test_inputs(qtbot):
 
 def test_button(qtbot):
 
-    qtMainWindow = MyApp()
+    qtMainWindow = ValidationFormDialog()
 
     # Setup
     window = qtMainWindow
