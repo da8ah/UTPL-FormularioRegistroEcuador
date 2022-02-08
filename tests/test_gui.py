@@ -61,6 +61,8 @@ def test_datos_en_widgets(qtbot, window_widget, val):
          'window.dialog.checkPhone.pixmap().toImage()', 'window.CHECK_OK.toImage()'),
         ('window.dialog.tfdPhone', '01234567',
          'window.dialog.checkPhone.pixmap().toImage()', 'window.CHECK_ERROR.toImage()'),
+        ('window.dialog.tfdPhone', '0123456789 10',
+         'window.dialog.checkPhone.pixmap().toImage()', 'window.CHECK_ERROR.toImage()'),
         ('window.dialog.tfdCi', '0987654321',
          'window.dialog.checkCi.pixmap().toImage()', 'window.CHECK_OK.toImage()'),
         ('window.dialog.tfdCi', '0987654321',
