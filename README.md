@@ -22,9 +22,3 @@ Realizar pruebas unitarias para validar el funcionamiento de la información sol
 **Número de cédula:** El número de cédula es único en Ecuador y está compuesto por 10 dígitos. Los dos primeros dígitos del número de identidad representan la provincia en donde fue emitida dicha cédula.
 
 ![codigoprovincias](https://user-images.githubusercontent.com/62577449/151643879-3f272a29-7aac-42ec-81a6-1cdbbf06adee.png)
-
-## Recursos adicionales
-
-### Comprobación de Test Unitarios
-
-![testUnitarios](img/TestCorrectos.jpg)
